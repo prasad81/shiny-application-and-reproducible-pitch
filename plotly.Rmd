@@ -1,0 +1,41 @@
+---
+title: "Assignment Course Project Shiny Application and Reproducible Pitch"
+author: "Prasad"
+date: "March 26, 2017"
+output:
+  slidy_presentation: default
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Assignment : Course Project Shiny Application and Reproducible Pitch
+
+This is part of developing data products assignment from coursera.
+
+The project consists in two activities:
+
+* Create a Shiny application : I used an example from tutorial from rstudio.github.io on shiny on inputs-and-outputs.
+* Create a presentation in Slidify or Rstudio Presenter to pitch for the application.
+
+
+  
+## load data sets
+```{r,echo= TRUE }
+
+summary(mtcars)
+```
+
+
+## Slide with data table
+The main idea of the application is to provide usefule interface for mtcars data. It could be use for testing different application where requires relevant information.
+ ![](C:\\R\\coursera\\github\\shiny-application-and-reproducible-pitch\\mtcarssearch.png) 
+
+
+## Slide with plot and visualization
+```{r,echo= TRUE }
+hist(mtcars$mpg, breaks=12, xlab="miles per gallon", main="mpg histogram", col="blue")
+```
+
