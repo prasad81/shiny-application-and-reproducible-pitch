@@ -3,8 +3,8 @@ title: "Assignment Course Project Shiny Application and Reproducible Pitch"
 author: "Prasad"
 date: "March 26, 2017"
 output:
-  slidy_presentation: default
   ioslides_presentation: default
+  slidy_presentation: default
 ---
 
 ```{r setup, include=FALSE}
